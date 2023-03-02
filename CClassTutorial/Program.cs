@@ -237,8 +237,9 @@ house.room = 5;
 Console.WriteLine("total room in the  house  = " + house.room);
 house.stears= 10;
 Console.WriteLine("total no of stears = "+house.stears);
-house.members = 4;
-Console.WriteLine("total member in the house  = " + house.members);
+Console.WriteLine("total no of stears = "+house.stears);
+Console.WriteLine("total no of stears = "+house.stears);
+
 house.entry();
 house.study();
 house.sleep();
