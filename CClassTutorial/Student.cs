@@ -18,13 +18,13 @@ namespace CClassTutorial
         //}
 
         // parameterized constructor
-        public Student(long phone, string fname, string lname)
-        {
+        //public Student(long phone, string fname, string lname)
+        //{
 
-            mobile = phone;
-            firstname = fname;
-            lastname = lname;
-        }
+        //    mobile = phone;
+        //    firstname = fname;
+        //    lastname = lname;
+        //}
 
         // static constructor
 

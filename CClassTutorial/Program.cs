@@ -1,7 +1,48 @@
 ﻿using CClassTutorial;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.CompilerServices;
 using System.Runtime.Versioning;
 using System.Security;
+
+
+
+Lion lion=new Lion();
+lion.name = "Sartaj";
+Console.WriteLine("Lion name is = "+lion.name);
+lion.legs = 4;
+Console.WriteLine("total legs = " + lion.legs);
+lion.weight = 48.56;
+Console.WriteLine("total weight is = " + lion.weight+"kg");
+lion.age = 14;
+Console.WriteLine("lion age = "+ lion.age+"y");
+lion.nonveg = true;
+Console.WriteLine("Lion is non-vegetarian = " + lion.nonveg);
+lion.sleep();
+lion.run();
+lion.eat();
+lion.hunts();
+
+
+//Carr car = new Carr();
+//car.name = "Tigor";
+//Console.WriteLine("Car name is  = " + car.name);
+//car.model = 2022;
+//Console.WriteLine("Car model is = " + car.model);
+//car.company = "Tata";
+//Console.WriteLine("Car company name is = " + car.company);
+//car.Windows = 4;
+//Console.WriteLine("Total windows = " + car.Windows);
+//car.tyers = 4;
+//Console.WriteLine("total tyers in car = "+car.tyers);
+//car.start();
+//car.race();
+//car.speedup();
+//car.speeddown();
+//car.Break();
+//car.stop();
+//car.openwindows();
+
+    
 
 //Bank class
 
@@ -228,18 +269,19 @@ using System.Security;
 //Console.WriteLine("Student Mobile Number = " + student2.mobile);
 //Console.WriteLine("Student FUll Name = " + student2.firstname + " " + student2.lastname);
 
-      //house class example
+//house class example
 
-House house=new House();
-house.Address = "Ghumavati";
-Console.WriteLine("House address is = "+house.Address);
-house.room = 5;
-Console.WriteLine("total room in the  house  = " + house.room);
-house.stears= 10;
-Console.WriteLine("total no of stears = "+house.stears);
-Console.WriteLine("total no of stears = "+house.stears);
-Console.WriteLine("total no of stears = "+house.stears);
+//House house=new House();
+//house.Address = "Ghumavati";
+//Console.WriteLine("House address is = "+house.Address);
+//house.room = 5;
+//Console.WriteLine("total room in the  house  = " + house.room);
+//house.stears= 10;
+//Console.WriteLine("total no of stears = "+house.stears);
+//Console.WriteLine("total no of stears = "+house.stears);
+//Console.WriteLine("total no of stears = "+house.stears);
 
-house.entry();
-house.study();
-house.sleep();
+//house.entry();
+//house.study();
+//house.sleep();
+
